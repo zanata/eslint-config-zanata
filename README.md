@@ -22,7 +22,7 @@ extends: zanata
 ```
 
 ```json
-# .eslintrc (json)
+// .eslintrc (json)
 {
   "extends": "zanata"
 }
@@ -96,7 +96,7 @@ have decided to use.
 
 ```json
 {
-"extends": "zanata/react"
+  "extends": "zanata/react"
 }
 ```
 
@@ -112,6 +112,6 @@ Just adds angular as a global.
 
 ```json
 {
-"extends": "zanata/angular"
+  "extends": "zanata/angular"
 }
 ```
