@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'zanata'
+  extends: 'zanata',
 
   /* Pairs global variable name, and whether to allow writing to it.
    * See:
