@@ -1,6 +1,8 @@
 # eslint-config-zanata
 
-eslint configurations for linting of all Zanata's JavaScript code
+eslint configurations for linting of all Zanata's JavaScript code.
+
+These are all based on [JavaScript Standard Style](http://standardjs.com/).
 
 ## Usage
 
@@ -32,6 +34,46 @@ your own rules you need. See http://eslint.org/docs/user-guide/configuring.html
 For projects in the Zanata organization, you should prefer requesting rules to
 be added to these configs rather than adding custom rules per-project. This is
 so that the style stays consistent between all our projects.
+
+
+### Show linting in sublime text
+
+Use SublimeLinter with its eslint plugin:
+
+ - [install SublimeLinter](http://sublimelinter.readthedocs.org/en/latest/installation.html)
+ - ensure eslint is installed according to the
+   [SublimeLinter-eslint instructions](https://github.com/roadhump/SublimeLinter-eslint)
+ - [install SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
+
+When you have followed the configuration instrcutions for SublimeLinter-eslint,
+it should automatically locate .eslintrc files and lint files that you edit.
+
+### Show linting in webstorm
+
+Use the builtin [WebStorm ESLint tool](https://www.jetbrains.com/webstorm/help/eslint.html)
+
+### Lint in gulp
+
+Use [gulp-eslint](https://www.npmjs.com/package/gulp-eslint)
+
+```bash
+npm install gulp-eslint --save-dev
+```
+
+If you use `eslint()` with no arguments, it will resolve `.eslintrc` relative to
+each file. To specify a config, supply it as a relative path.
+
+e.g. `eslint('./.eslintrc')`
+
+
+### Lint in webpack build
+
+Use [eslint-loader](https://www.npmjs.com/package/eslint-loader):
+
+```bash
+npm install eslint-loader --save-dev
+```
+
 
 ## Configurations
 
