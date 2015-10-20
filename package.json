@@ -1,10 +1,9 @@
 {
   "name": "eslint-config-zanata",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "eslint configurations for linting of all Zanata's JavaScript code",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint-config-standard": "^4.4.0",
     "eslint-plugin-no-console-log": "^1.0.0",
