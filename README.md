@@ -6,11 +6,20 @@ These are all based on [JavaScript Standard Style](http://standardjs.com/).
 
 ## Usage
 
-Install this config:
+Install this config and its dependencies:
 
 ```bash
-npm install eslint-config-zanata --save-dev
+npm install --save-dev eslint-config-zanata \
+                       eslint-config-standard \
+                       eslint-plugin-no-console-log \
+                       eslint-plugin-react \
+                       eslint-plugin-standard
 ```
+
+*Why all the dependencies?*
+The dependencies must be directly in the project because eslint will not locate
+them if they are nested within a shareable config.
+
 
 then have your config extend it:
 

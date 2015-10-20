@@ -4,6 +4,8 @@
   "description": "eslint configurations for linting of all Zanata's JavaScript code",
   "main": "index.js",
   "dependencies": {
+  },
+  "peerDependencies": {
     "eslint-config-standard": "^4.4.0",
     "eslint-plugin-no-console-log": "^1.0.0",
     "eslint-plugin-react": "^3.6.2",
