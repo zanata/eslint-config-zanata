@@ -16,7 +16,10 @@ module.exports = {
   ],
 
   // Use the babel parser to handle es6 and jsx properly
-  parser: 'babel-eslint'
+  parser: 'babel-eslint',
 
-  // TODO enable react-specific rules
+  rules: {
+    'react/jsx-uses-react': 2,
+    'react/jsx-uses-vars': 2
+  }
 }
