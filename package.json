@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zanata",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint configurations for linting of all Zanata's JavaScript code",
   "main": "index.js",
   "dependencies": {},
