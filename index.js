@@ -9,12 +9,11 @@
  */
 module.exports = {
   extends: 'standard',
-
   env: {
     // assume all browser APIs are available
     browser: true
   },
-
+  parser: 'babel-eslint',
   // globals: {
   //   // React is a global, and should never be written to
   //   React: false
