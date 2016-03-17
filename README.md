@@ -9,11 +9,7 @@ These are all based on [JavaScript Standard Style](http://standardjs.com/).
 Install this config and its dependencies:
 
 ```bash
-npm install --save-dev eslint-config-zanata \
-                       eslint-config-standard \
-                       eslint-plugin-no-console-log \
-                       eslint-plugin-react \
-                       eslint-plugin-standard
+npm install eslint eslint-config-zanata eslint-config-standard eslint-config-standard-react eslint-config-standard-jsx eslint-plugin-react eslint-plugin-promise
 ```
 
 *Why all the dependencies?*
@@ -107,12 +103,6 @@ have decided to use.
 {
   "extends": "zanata/react"
 }
-```
-
-This needs the babel-eslint parser
-
-```bash
-npm install --save-dev babel-eslint
 ```
 
 ### Angular
