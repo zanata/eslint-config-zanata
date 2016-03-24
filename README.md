@@ -9,8 +9,15 @@ These are all based on [JavaScript Standard Style](http://standardjs.com/).
 Install this config and its dependencies:
 
 ```bash
-npm install eslint babel-eslint eslint-config-zanata eslint-config-standard eslint-config-standard-react eslint-config-standard-jsx eslint-plugin-react eslint-plugin-promise
+npm install eslint eslint-config-zanata \
+            eslint-config-standard \
+            eslint-config-standard-react \
+            eslint-config-standard-jsx \
+            eslint-plugin-react \
+            eslint-plugin-promise \
+            babel-eslint
 ```
+
 
 *Why all the dependencies?*
 The dependencies must be directly in the project because eslint will not locate
