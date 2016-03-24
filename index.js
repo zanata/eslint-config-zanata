@@ -9,16 +9,11 @@
  */
 module.exports = {
   extends: 'standard',
-
   env: {
     // assume all browser APIs are available
     browser: true
   },
-
-  plugins: [
-    'no-console-log'
-  ],
-
+  parser: 'babel-eslint',
   // globals: {
   //   // React is a global, and should never be written to
   //   React: false
@@ -50,7 +45,7 @@ module.exports = {
 
     // No logging to console, so debugging lines are not left in by mistake.
     // Just a warning, do not want to stop build during development
-    'no-console-log/no-console-log': 1,
+    'no-console': [1, { allow: ['warn', 'error'] }],
 
     // Do not use variables before they are defined.
     'no-use-before-define': [
