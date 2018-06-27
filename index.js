@@ -8,6 +8,7 @@
  * see standardjs.com
  */
 module.exports = {
+  // https://standardjs.com/
   extends: 'standard',
   env: {
     // assume all browser APIs are available
